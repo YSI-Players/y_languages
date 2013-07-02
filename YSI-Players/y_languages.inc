@@ -89,11 +89,11 @@ Operators:
 	-
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 #define YSIM_U_DISABLE
-#include "..\YSI-Core\y_master"
+#include "..\YSI_Core\y_master"
 
-#include "..\YSI-Coding\y_hooks"
+#include "..\YSI_Coding\y_hooks"
 
 #if !defined MAX_LANGUAGES
 	#define MAX_LANGUAGES (4)
