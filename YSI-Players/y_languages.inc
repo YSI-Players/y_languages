@@ -85,16 +85,16 @@ Optional plugins:
 	#tryinclude "y_languages\y_languages_entry"
 #endif
 #if !defined _INC_y_languages
-	#tryinclude "YSI_Players\y_languages\y_languages_entry"
+	#tryinclude "YSI-Players\y_languages\y_languages_entry"
 #endif
 #if !defined _INC_y_languages
-	#tryinclude "YSI\YSI_Players\y_languages\y_languages_entry"
+	#tryinclude "YSI\YSI-Players\y_languages\y_languages_entry"
 #endif
 #if !defined _INC_y_languages
-	#tryinclude <YSI_Players\y_languages\y_languages_entry>
+	#tryinclude <YSI-Players\y_languages\y_languages_entry>
 #endif
 #if !defined _INC_y_languages
-	#tryinclude <YSI\YSI_Players\y_languages\y_languages_entry>
+	#tryinclude <YSI\YSI-Players\y_languages\y_languages_entry>
 #endif
 #if !defined _INC_y_languages
 	#error Could not find y_languages
